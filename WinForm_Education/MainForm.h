@@ -35,7 +35,7 @@ namespace WinFormEducation {
 			}
 		}
 	private: System::Windows::Forms::Label^ lbl_mainname;
-	private: System::Windows::Forms::Button^ btn_exit;
+
 	private: System::Windows::Forms::Label^ lbl_result;
 	private: System::Windows::Forms::Button^ btn_clear;
 
@@ -107,7 +107,6 @@ namespace WinFormEducation {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MainForm::typeid));
 			this->lbl_mainname = (gcnew System::Windows::Forms::Label());
-			this->btn_exit = (gcnew System::Windows::Forms::Button());
 			this->lbl_result = (gcnew System::Windows::Forms::Label());
 			this->btn_clear = (gcnew System::Windows::Forms::Button());
 			this->btn_plusminus = (gcnew System::Windows::Forms::Button());
@@ -135,16 +134,6 @@ namespace WinFormEducation {
 			resources->ApplyResources(this->lbl_mainname, L"lbl_mainname");
 			this->lbl_mainname->ForeColor = System::Drawing::SystemColors::MenuText;
 			this->lbl_mainname->Name = L"lbl_mainname";
-			// 
-			// btn_exit
-			// 
-			this->btn_exit->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(214)), static_cast<System::Int32>(static_cast<System::Byte>(22)),
-				static_cast<System::Int32>(static_cast<System::Byte>(45)));
-			resources->ApplyResources(this->btn_exit, L"btn_exit");
-			this->btn_exit->ForeColor = System::Drawing::Color::White;
-			this->btn_exit->Name = L"btn_exit";
-			this->btn_exit->UseVisualStyleBackColor = false;
-			this->btn_exit->Click += gcnew System::EventHandler(this, &MainForm::btn_exit_Click);
 			// 
 			// lbl_result
 			// 
@@ -329,19 +318,14 @@ namespace WinFormEducation {
 			this->Controls->Add(this->btn_percent);
 			this->Controls->Add(this->btn_plusminus);
 			this->Controls->Add(this->btn_clear);
-			this->Controls->Add(this->btn_exit);
 			this->Controls->Add(this->lbl_result);
 			this->Controls->Add(this->lbl_mainname);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::SizableToolWindow;
 			this->Name = L"MainForm";
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
-	private: System::Void btn_exit_Click(System::Object^ sender, System::EventArgs^ e)
-	{
-		this->Close();
-	}
 	private: System::Void AddNumToLable(System::Object^ sender, System::EventArgs^ e)
 	{
 		if(this->lbl_result->ForeColor != Color::Black)
