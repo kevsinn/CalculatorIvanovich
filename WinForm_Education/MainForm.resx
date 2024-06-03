@@ -537,7 +537,7 @@
     <value>NoControl</value>
   </data>
   <data name="lbl_mainname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 36</value>
+    <value>-4, 9</value>
   </data>
   <data name="lbl_mainname.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -565,49 +565,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_mainname.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="btn_exit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btn_exit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
-  </data>
-  <data name="btn_exit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 9</value>
-  </data>
-  <data name="btn_exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 29</value>
-  </data>
-  <data name="btn_exit.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_exit.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="btn_exit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;btn_exit.Name" xml:space="preserve">
-    <value>btn_exit</value>
-  </data>
-  <data name="&gt;&gt;btn_exit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_exit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_exit.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="lbl_result.Font" type="System.Drawing.Font, System.Drawing">
     <value>Palatino Linotype, 25pt</value>
   </data>
   <data name="lbl_result.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 82</value>
+    <value>105, 55</value>
   </data>
   <data name="lbl_result.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 50</value>
+    <value>225, 60</value>
   </data>
   <data name="lbl_result.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -628,7 +595,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_result.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>19</value>
   </data>
   <data name="btn_clear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
